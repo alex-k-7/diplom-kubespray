@@ -1,4 +1,4 @@
-## Конфигурация Kubespray для установки кластера в Yandex Cloud.
+## Создание кластера Kubernetes с помощью Kubesparay.
 Параметры кластера - [inventory.ini](https://github.com/alex-k-7/diplom-kubespray/blob/main/inventory/diplom/inventory.ini).
 
 Для доступа ansible к нодам в файле inventory/diplom/group_vars/all/all.yml добавлен параметр "ansible_user", для которого в локальном профиле среды выполнения ansible-playbook созданы ssh-ключи и публичный передан виртуальным машинам при создании инфраструктуры для кластера.
